@@ -5348,7 +5348,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:theothernic/datamodels.git",
-                "reference": "4eb8d98495dbbcf4aedddfce9f82b7bacaad3db2"
+                "reference": "96d2df3b3be0817cb85d484ec1cdc8c51a90185d"
             },
             "require": {
                 "php": "^8.1"
@@ -5366,7 +5366,7 @@
                     "email": "code@nicholasbarr.net"
                 }
             ],
-            "time": "2023-09-01T22:13:33+00:00"
+            "time": "2023-09-02T01:47:24+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

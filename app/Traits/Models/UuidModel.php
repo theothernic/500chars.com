@@ -7,6 +7,14 @@
     trait UuidModel
     {
         use HasUuids, SoftDeletes;
-        protected $keyType = 'string';
-        public $incrementing = false;
+
+        public function getKeyType(): string
+        {
+            return 'uuid';
+        }
+
+        public function getIncrementing(): bool
+        {
+            return false;
+        }
     }

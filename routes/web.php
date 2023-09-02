@@ -12,6 +12,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+    require 'auth.php';
+
+    require 'app.php';
+    require 'app-protected.php';
+
+    require 'web-protected.php';
     require 'well-known.php';
 
     Route::prefix('@{account}')->group(function () {

@@ -1,0 +1,13 @@
+@import 'common/resets';
+@import 'common/app_forms';
+@import 'common/messages';
+
+@import 'common/ui/table';
+
+@import 'layouts/centerstage';
+
+
+#AppHeader {
+    background: dodgerblue;
+    color: white;
+}

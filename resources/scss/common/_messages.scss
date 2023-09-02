@@ -1,0 +1,23 @@
+
+.alert {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fafafa;
+    border: solid 1px gray;
+    border-radius: 0.4rem;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    &.info {
+        background: skyblue;
+        border-color: midnightblue;
+        color: blue;
+    }
+
+    &.error {
+        background: lightpink;
+        border-color: #cc0000;
+        color: #cc0000;;
+    }
+}

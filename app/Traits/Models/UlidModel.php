@@ -7,6 +7,14 @@
     trait UlidModel
     {
         use HasUlids, SoftDeletes;
-        protected $keyType = 'string';
-        public $incrementing = false;
+
+        public function getKeyType(): string
+        {
+            return 'ulid';
+        }
+
+        public function getIncrementing(): bool
+        {
+            return false;
+        }
     }

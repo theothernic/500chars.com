@@ -1,0 +1,29 @@
+button,
+a.button {
+    display: block;
+    padding: 1rem;
+
+    border-radius: 0.4rem;
+    background: #a0aec0;
+    color: #2d3748;
+
+    &.primary {
+        background: dodgerblue;
+        color: white;
+    }
+
+    &.danger {
+        background: red;
+        color: white;
+    }
+
+    &.warn {
+        background: darkorange;
+        color: white;
+    }
+
+    &.success {
+        background: forestgreen;
+        color: white;
+    }
+}

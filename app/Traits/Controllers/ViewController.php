@@ -1,13 +1,16 @@
 <?php
     namespace App\Traits\Controllers;
 
-    use App\View\Models\ViewModel;
     use Illuminate\View\View;
+    use Theothernic\Datamodels\View\ViewModel;
 
     trait ViewController
     {
-        public function respondWithView(string $view, ViewModel $data): View
+        public function respondWithView(string $view, ViewModel|null $page = null): View
         {
-            return view($view, compact('data'));
+            if (is_null($page))
+                return view($view);
+
+            return view($view, compact('page'));
         }
     }

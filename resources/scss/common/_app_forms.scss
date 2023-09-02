@@ -1,0 +1,22 @@
+form {
+    width: 100%;
+}
+
+input[type=text],
+input[type=password]
+{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+label {
+    display: block;
+    width: 100%;
+}
+
+
+.control,
+.actions
+{
+    padding-top: 1rem;
+}
